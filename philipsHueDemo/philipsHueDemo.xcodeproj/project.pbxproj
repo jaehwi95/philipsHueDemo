@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191E3E992C13A17A00414834 /* RootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3E982C13A17A00414834 /* RootApp.swift */; };
+		191E3E9D2C13A17B00414834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191E3E9C2C13A17B00414834 /* Assets.xcassets */; };
+		191E3EA02C13A17B00414834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191E3E9F2C13A17B00414834 /* Preview Assets.xcassets */; };
+		191E3EBF2C14C2D100414834 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3EBE2C14C2D100414834 /* ViewModel.swift */; };
+		191E3EC22C14CC3000414834 /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3EC12C14CC3000414834 /* RouterView.swift */; };
+		191E3EC42C14CC4D00414834 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3EC32C14CC4D00414834 /* Router.swift */; };
+		191E3EC72C14CCDC00414834 /* CheckHueAppInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3EC62C14CCDC00414834 /* CheckHueAppInstallView.swift */; };
+		191E3EC92C14CCE700414834 /* CheckHueAppInstallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3EC82C14CCE700414834 /* CheckHueAppInstallViewModel.swift */; };
+		191E3ECC2C14D14A00414834 /* CheckControlLightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191E3ECB2C14D14A00414834 /* CheckControlLightsView.swift */; };
+		197F52B42C14D5E200AB786C /* CheckBridgeIPAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F52B32C14D5E200AB786C /* CheckBridgeIPAddressView.swift */; };
+		197F52B62C14D6AB00AB786C /* CheckBridgeIPAddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F52B52C14D6AB00AB786C /* CheckBridgeIPAddressViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		191E3E952C13A17A00414834 /* philipsHueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = philipsHueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		191E3E982C13A17A00414834 /* RootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootApp.swift; sourceTree = "<group>"; };
+		191E3E9C2C13A17B00414834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		191E3E9F2C13A17B00414834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		191E3EBE2C14C2D100414834 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		191E3EC02C14CACE00414834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191E3EC12C14CC3000414834 /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		191E3EC32C14CC4D00414834 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		191E3EC62C14CCDC00414834 /* CheckHueAppInstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckHueAppInstallView.swift; sourceTree = "<group>"; };
+		191E3EC82C14CCE700414834 /* CheckHueAppInstallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckHueAppInstallViewModel.swift; sourceTree = "<group>"; };
+		191E3ECB2C14D14A00414834 /* CheckControlLightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckControlLightsView.swift; sourceTree = "<group>"; };
+		197F52B32C14D5E200AB786C /* CheckBridgeIPAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBridgeIPAddressView.swift; sourceTree = "<group>"; };
+		197F52B52C14D6AB00AB786C /* CheckBridgeIPAddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBridgeIPAddressViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191E3E922C13A17A00414834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191E3E8C2C13A17A00414834 = {
+			isa = PBXGroup;
+			children = (
+				191E3E972C13A17A00414834 /* philipsHueDemo */,
+				191E3E962C13A17A00414834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		191E3E962C13A17A00414834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191E3E952C13A17A00414834 /* philipsHueDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		191E3E972C13A17A00414834 /* philipsHueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				191E3EA62C14BAED00414834 /* Assets */,
+				191E3EAC2C14BB4100414834 /* Utils */,
+				191E3EAA2C14BB3500414834 /* Services */,
+				191E3EA92C14BB3000414834 /* Data */,
+				191E3EA82C14BB1000414834 /* Domain */,
+				191E3EA72C14BAFD00414834 /* Presentation */,
+				191E3E982C13A17A00414834 /* RootApp.swift */,
+				191E3E9E2C13A17B00414834 /* Preview Content */,
+			);
+			path = philipsHueDemo;
+			sourceTree = "<group>";
+		};
+		191E3E9E2C13A17B00414834 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				191E3E9F2C13A17B00414834 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		191E3EA62C14BAED00414834 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				191E3EC02C14CACE00414834 /* Info.plist */,
+				191E3E9C2C13A17B00414834 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		191E3EA72C14BAFD00414834 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				197F52B22C14D5C800AB786C /* CheckBridgeIPAddress */,
+				191E3EC52C14CCB500414834 /* CheckHueAppInstall */,
+				191E3ECA2C14D13100414834 /* CheckControlLights */,
+				191E3EB62C14BEE100414834 /* Router */,
+				191E3EBE2C14C2D100414834 /* ViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		191E3EA82C14BB1000414834 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				191E3EAD2C14BE6600414834 /* UseCase */,
+				191E3EAE2C14BE6B00414834 /* Entity */,
+				191E3EAF2C14BE7000414834 /* RepositoryInterface */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		191E3EA92C14BB3000414834 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				191E3EB02C14BEA200414834 /* DTO */,
+				191E3EB12C14BEA700414834 /* Repository */,
+				191E3EB22C14BEAC00414834 /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		191E3EAA2C14BB3500414834 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		191E3EAC2C14BB4100414834 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		191E3EAD2C14BE6600414834 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		191E3EAE2C14BE6B00414834 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		191E3EAF2C14BE7000414834 /* RepositoryInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RepositoryInterface;
+			sourceTree = "<group>";
+		};
+		191E3EB02C14BEA200414834 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		191E3EB12C14BEA700414834 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		191E3EB22C14BEAC00414834 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		191E3EB62C14BEE100414834 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				191E3EC12C14CC3000414834 /* RouterView.swift */,
+				191E3EC32C14CC4D00414834 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		191E3EC52C14CCB500414834 /* CheckHueAppInstall */ = {
+			isa = PBXGroup;
+			children = (
+				191E3EC62C14CCDC00414834 /* CheckHueAppInstallView.swift */,
+				191E3EC82C14CCE700414834 /* CheckHueAppInstallViewModel.swift */,
+			);
+			path = CheckHueAppInstall;
+			sourceTree = "<group>";
+		};
+		191E3ECA2C14D13100414834 /* CheckControlLights */ = {
+			isa = PBXGroup;
+			children = (
+				191E3ECB2C14D14A00414834 /* CheckControlLightsView.swift */,
+			);
+			path = CheckControlLights;
+			sourceTree = "<group>";
+		};
+		197F52B22C14D5C800AB786C /* CheckBridgeIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				197F52B32C14D5E200AB786C /* CheckBridgeIPAddressView.swift */,
+				197F52B52C14D6AB00AB786C /* CheckBridgeIPAddressViewModel.swift */,
+			);
+			path = CheckBridgeIPAddress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		191E3E942C13A17A00414834 /* philipsHueDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191E3EA32C13A17B00414834 /* Build configuration list for PBXNativeTarget "philipsHueDemo" */;
+			buildPhases = (
+				191E3E912C13A17A00414834 /* Sources */,
+				191E3E922C13A17A00414834 /* Frameworks */,
+				191E3E932C13A17A00414834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = philipsHueDemo;
+			productName = philipsHueDemo;
+			productReference = 191E3E952C13A17A00414834 /* philipsHueDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191E3E8D2C13A17A00414834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					191E3E942C13A17A00414834 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 191E3E902C13A17A00414834 /* Build configuration list for PBXProject "philipsHueDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191E3E8C2C13A17A00414834;
+			productRefGroup = 191E3E962C13A17A00414834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				191E3E942C13A17A00414834 /* philipsHueDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191E3E932C13A17A00414834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191E3EA02C13A17B00414834 /* Preview Assets.xcassets in Resources */,
+				191E3E9D2C13A17B00414834 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191E3E912C13A17A00414834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191E3EC92C14CCE700414834 /* CheckHueAppInstallViewModel.swift in Sources */,
+				191E3EC72C14CCDC00414834 /* CheckHueAppInstallView.swift in Sources */,
+				191E3ECC2C14D14A00414834 /* CheckControlLightsView.swift in Sources */,
+				191E3EBF2C14C2D100414834 /* ViewModel.swift in Sources */,
+				191E3E992C13A17A00414834 /* RootApp.swift in Sources */,
+				191E3EC42C14CC4D00414834 /* Router.swift in Sources */,
+				197F52B62C14D6AB00AB786C /* CheckBridgeIPAddressViewModel.swift in Sources */,
+				197F52B42C14D5E200AB786C /* CheckBridgeIPAddressView.swift in Sources */,
+				191E3EC22C14CC3000414834 /* RouterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		191E3EA12C13A17B00414834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		191E3EA22C13A17B00414834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		191E3EA42C13A17B00414834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"philipsHueDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6973WVKMZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = philipsHueDemo/Assets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaebi.philipsHueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		191E3EA52C13A17B00414834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"philipsHueDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6973WVKMZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = philipsHueDemo/Assets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaebi.philipsHueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191E3E902C13A17A00414834 /* Build configuration list for PBXProject "philipsHueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191E3EA12C13A17B00414834 /* Debug */,
+				191E3EA22C13A17B00414834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191E3EA32C13A17B00414834 /* Build configuration list for PBXNativeTarget "philipsHueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191E3EA42C13A17B00414834 /* Debug */,
+				191E3EA52C13A17B00414834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 191E3E8D2C13A17A00414834 /* Project object */;
+}
